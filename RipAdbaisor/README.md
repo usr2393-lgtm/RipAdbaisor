@@ -1,18 +1,14 @@
-## Getting Started
+<!--Explicación rápida de lo que hice en esta humilde tarea:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+En este proyecto creé RipAdbaisor, hecho con Java, Swing y ArrayList.  
+La aplicación permite añadir elementos, editarlos, mostrarlos ordenados por puntuación y eliminarlos, todo usando JOptionPane porque el cliente del enunciado le tiene miedo a la consola (no soy yo, lo juro).
 
-## Folder Structure
+La clase Elemento representa cada cosa que el usuario añade.  
+La clase ListaInteligente gestiona el ArrayList con el CRUD.  
+La clase Validador evita que el usuario meta datos raros de cojones.  
+Y la clase App contiene el menú principal con todas las opciones.
 
-The workspace contains two folders by default, where:
+También añadí validaciones, control de excepciones, comentarios naturales estilo alumno y un README decente.  
+Subí todo a GitHub usando ramas (main, development y feature/...) con commits descriptivos.
+-->
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
